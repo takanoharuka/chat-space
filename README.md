@@ -55,8 +55,8 @@ Things you may want to cover:
 ##chatsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|message|text|null: false|
-|image|img|null: false|
+|message|text
+|image|string
 |user_id|integer|null: false, foreign_key: true|
 ###Association
 - belong_to :user
