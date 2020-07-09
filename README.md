@@ -29,8 +29,8 @@ Things you may want to cover:
 |password|string|null: false|
 |name|string|null: false|
 ###Association
-- has_many :chats
-- has_many :groups
+- has_many :groups, through: :groups_users
+- belong_to :group
 
 ##groupsテーブル
 |Column|Type|Options|
