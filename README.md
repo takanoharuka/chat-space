@@ -54,6 +54,7 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |message|text|null: false|
+|image|img|null: false|
 |user_id|integer|null: false, foreign_key: true|
 ###Association
 - belong_to :user
