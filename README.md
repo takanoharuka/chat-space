@@ -61,6 +61,7 @@ Things you may want to cover:
 |group_id|integer|null: false, foreign_key: true|
 ###Association
 - belong_to :user
+- belongs_to :group
 - has_many :images
 - has_many :groups
 
