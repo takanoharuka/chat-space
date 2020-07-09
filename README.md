@@ -62,16 +62,6 @@ Things you may want to cover:
 - has_many :groups
 
 
-##imagesテーブル
-|Column|Type|Options|
-|------|----|-------|
-|image|img|null: false|
-|user_id|integer|null: false, :foreign_key: true|
-|chats_id|integer|null: false, :foreign_key: true|
-###Association
-- belong_to :chat
-- belong_to :user
-
 ##users_imagesテーブル
 |Column|Type|Options|
 |------|----|-------|
