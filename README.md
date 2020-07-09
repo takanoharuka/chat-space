@@ -48,8 +48,8 @@ Things you may want to cover:
 |users_id|integer|null: false, foreign_key: true|
 |groups_id|integer|null: false, foreign_key: true|
 ###Association
-- belong_to :user
-- belong_to :group
+- belongs_to :user
+- belongs_to :group
 
 
 ##chatsテーブル
