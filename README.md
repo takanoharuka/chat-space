@@ -30,7 +30,8 @@ Things you may want to cover:
 |name|string|null: false|
 ###Association
 - has_many :groups, through: :groups_users
-- belong_to :group
+- has_many :chats
+- has_many :groups_users
 
 ##groupsテーブル
 |Column|Type|Options|
