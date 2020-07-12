@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper{
+  display: flex;
+}
+
+
+.chat_main{
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+  height: 100vh;
+
+  &__info{
+  background-color: #ffffff;
+  border: #eeeeee;
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+    .chat_main__info_group{
+      padding: 35px 0px 0px 0px;
+      .group_name{
+        font-size: 20px;
+        color: #333333;
+      }
+      .member_name{
+        font-size: 12px;
+        color: #999999;
+        margin-top: 15px;
+      }
+    }
+    .edit_button{
+      color: #38aef0;
+      border: 1px solid #38aef0;
+      font-size: 16px;
+      padding: 0 20px;
+      margin: 28px 0px;
+      width: 72px;
+      line-height: 42px;
+    }
+  }
+
+
+  &__massage{
+    background-color: #fafafa;
+    height: calc(100vh - 190px);
+  }
+
+  &__form{
+    background-color: #d2d2d2;
+    height: 90px;
+  }
+}
+
+.side_bar{
+  background-color: #253141;
+  width: 300px;
+
+  &__box{
+    background-color: #253141;
+    height: 100px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    .side_bar__top_item {
+      width: 260px;
+      height: 20px;
+      display: flex;
+      justify-content: space-between;
+      .side_bar__user_name{
+        color: #ffffff;
+        text-align: center;
+      }
+      .side_bar__icons{
+        display: flex;
+        justify-content: end;
+      }
+        .side_bar__icons_edit{
+          .edit{
+            color: #ffffff;
+            margin-left: 5px;
+          }
+        }
+        .side_bar__icons_cog{
+          .cog{
+            color: #ffffff;
+            margin-left: 5px;
+          }
+        }
+    }
+  }
+
+  &__group_list{
+    height: calc(100vh - 100px);
+    background-color: #2f3e51;
+    padding: 20px 20px 0px;
+    .group_list_top{
+      margin-bottom: 40px;
+      .group_list_top__name{
+        font-size: 15px;
+        color: #ffffff;
+      }
+      .group_list__top_massage{
+        font-size: 11px;
+        margin-top: 5px;
+        color: #ffffff;
+      }
+    }
+  }
+}
