@@ -1,0 +1,35 @@
+.chat_main
+  .chat_main__info
+    .info_group
+      .group_name
+        test
+      .member_name
+        Member : masa
+    .edit_button
+      = link_to "Edit" , "#" 
+  .chat_main__message
+    .message_box
+      %ul.message_info
+        %li.message_info__username
+          masa
+        %li.message_info__date
+          2020/7/12(sun) 22:20:01
+      %p.message_content
+        おはよう
+    .message_box
+      %ul.message_info
+        %li.message_info__username
+          masa
+        %li.message_info__date
+          2020/7/12(sun) 22:20:01
+      %p.message_content
+        おはよう
+
+  .chat_main__form
+    %form.form
+      .form_box
+        %input{type: "text", class:"form_box__message", placeholder: "type a message"}
+        %label{class: "form_box__image"}
+          = icon('fas','image')
+          %input{type: "file",class:"form_box__image__file"}
+      %input{type: "submit", class:"submit_btn",value:"Send"}
