@@ -31,13 +31,17 @@
       }
     }
     .edit_button{
-      color: #38aef0;
+      
       border: 1px solid #38aef0;
       font-size: 16px;
       padding: 0 20px;
       margin: 28px 0px;
       width: 72px;
       line-height: 42px;
+      .edit_btn{
+        text-decoration: none;
+        color: #38aef0;
+      }
     }
   }
 
