@@ -118,6 +118,9 @@
 .side_bar{
   background-color: #253141;
   width: 300px;
+  a {
+    text-decoration: none;
+  }
 
   &__box{
     background-color: #253141;
