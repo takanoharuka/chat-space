@@ -13,11 +13,11 @@
   .side_bar__group_list
     - current_user.groups.each do |group|
       .list_top
-        = link_to '#' do
+        = link_to group_messages_path(group) do
           .list_top__name
             = group.name
           .list_top__message
-            まだメッセージがありません
+            = group.show_last_message
     -# .list_top
     -#   .list_top__name
     -#     techcamp
